@@ -92,7 +92,7 @@ init_quartz() {
         cat > "${REPO_DIR}/index.md" << INDEX_EOF
 # Welcome
 
-> 由 [Quartz](https://quartz.jzhao.xyz/) 驱动的笔记站点。
+> A notes website powered by [Quartz](https://quartz.jzhao.xyz/).
 INDEX_EOF
     fi
     cd "$REPO_DIR"
@@ -226,7 +226,7 @@ start_git_pull_loop() {
         cat > "${REPO_DIR}/index.md" << INDEX_EOF
 # Welcome
 
-> 由 [Quartz](https://quartz.jzhao.xyz/) 驱动的笔记站点。
+> A notes website powered by [Quartz](https://quartz.jzhao.xyz/).
 INDEX_EOF
     fi
             cd "$REPO_DIR"
